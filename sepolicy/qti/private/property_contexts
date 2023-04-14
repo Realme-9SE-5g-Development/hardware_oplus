@@ -3,6 +3,7 @@ persist.sys.bt.a2dp.                             u:object_r:exported_system_prop
 
 # Camera
 oplus.camera.    u:object_r:exported_system_prop:s0
+ro.camera.       u:object_r:exported_system_prop:s0
 
 # Fingerprint
 gf.debug.dump_data    u:object_r:system_fingerprint_prop:s0
@@ -10,6 +11,7 @@ oplus.fingerprint.    u:object_r:system_fingerprint_prop:s0
 persist.sys.fp.       u:object_r:system_fingerprint_prop:s0
 
 # Logging
+persist.assert.panic.camera         u:object_r:exported_system_prop:s0
 persist.camera.assert.panic         u:object_r:exported_system_prop:s0
 persist.camera.OverrideLogLevels    u:object_r:exported_system_prop:s0
 persist.sys.assert.panic            u:object_r:exported_system_prop:s0
